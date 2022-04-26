@@ -1,0 +1,90 @@
+.choice__container{
+    display: flex;
+    width: 100%;
+    margin: 0.5rem auto;
+    border: 0.1rem solid rgba(0, 0, 0, 0.46);
+    background-color: white;
+}
+.choice__container:hover{
+    box-shadow: 0 0.4rem 1.4rem rgba(0, 0, 0, 0.46);
+    transition: transform 150ms;
+    transform: translateY(-0.1rem);
+}
+.choice__prefix{
+    padding: 1.5rem 2.5rem;
+    margin: 0;
+    color: white;
+    background-color: #333;
+}
+.choice__text{
+    width: 100%;
+    padding: 1.5rem;
+}
+
+
+/* hud */
+#hud{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.hud__prefix{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.hud__text{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+/* progress-bar */
+#progressBar{
+    margin: 1rem 0;
+    height: 3rem;
+    width: 20rem;
+    background-color: transparent;
+    border: 0.2rem solid #333;
+}
+#progressBarColor{
+    height: 100%;
+    background-color: #333;
+}
+
+/* correct or incorrect */
+
+.correct{
+    background-color: #28a745;
+}
+
+.incorrect{
+    background-color: #dc3545;
+}
+
+.correct > p, .incorrect > p{
+    color: white;
+}
+
+/* end game */
+form{
+    margin: 4rem 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(100%, max-content);
+}
+input{
+    padding: 1rem 2rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+input:hover{
+    box-shadow: 0 0.4rem 1.4rem rgba(0, 0, 0, 0.46);
+    transition: transform 150ms;
+    transform: translateY(-0.1rem);
+}
+input::placeholder{
+    color: #aaa;
+    font-size: 1.2rem;
+}
