@@ -3,10 +3,10 @@
 <img src="banner.png" alt="cool banner here ma good bitch!" />
 
 <b>Made with:</b><br/>
-Lorem ipsulum v1.4
+Javascript
 <br/><br/>
 <b>What is this?</b><br/>
-A game
+A quiz game
 <br/><br/>
 <b>Description:</b><br/>
 It's a game of neuroscience questions :)
@@ -18,30 +18,24 @@ It's a game of neuroscience questions :)
 
 # Project setup
 ```
-Type the commands here
+open on your favorite browser
 ```
 
-### Compiles and hot-reloads for development
-```
-Type the commands here
-```
-
-<b>Thank you for your support!</b>
 
 # Preview
 <img src="overview.png" alt="What the fuck is going on here?" />
 
 
 # How is the development of the project right now?
-<b>Last update:</b> XX/XX/2021
+<b>Last update:</b> 25/04/2022
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra molestie finibus. Donec lacinia quam at est lobortis tempus. Proin ac ipsum vel orci aliquam consectetur.
+Finally I code the quiz game hahaha now I need real questions & answers, improve front-end and deploy :)
 
 <br/>
 
 # Credits
 
-Lorem ipsum dolor sit amet
+Freepik images, as always :)
 
 <i>Stay awesome Gothan!</i>
   
